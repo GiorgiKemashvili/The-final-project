@@ -198,3 +198,205 @@
     margin: 10px auto 0;
     opacity: 1;
   }
+  .about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-left: 200px;
+    align-items: center;
+  }
+  .section-caption {
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+    opacity: 1;
+  }
+  .about-me-caption {
+    font-family: sans-serif;
+    color: #daae19;
+    font-size: 14px;
+    opacity: 1;
+    margin-left: 180px;
+  }
+  .section-text {
+    color: #555555;
+    font-size: 15px;
+    font-family: "Multi-Regular", sans-serif;
+    text-align: left;
+    letter-spacing: 0.45px;
+    opacity: 1;
+    line-height: 26px;
+    margin-top: 20px;
+  }
+  .text-section {
+    flex: 1;
+  }
+  
+  .hire-me-button {
+    margin-top: 80px;
+    width: 152px;
+    height: 50px;
+    background: #e93656;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 1;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 270px;
+    transition: background-color 0.6s ease;
+  }
+  .hire-me-button:hover {
+    background-color: #c70d2f;
+  }
+  
+  .my-image {
+    margin-top: 20px;
+    width: 400px;
+    height: 450px;
+  }
+  
+  .my-skills {
+    margin-left: 50px;
+    flex: 1;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+  }
+  .skill {
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #555555;
+    line-height: 50px;
+    max-width: 450px;
+  }
+  .percentage {
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e93656;
+    text-align: center;
+  }
+  .progress {
+    height: 100%;
+    background-color: #e93656;
+  }
+  
+  .skill p {
+    margin: 0;
+  }
+  .icon-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 70px;
+  }
+  
+  .icon-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  .icon-box:hover {
+    background-color: #15263e;
+    transform: translateY(-2px);
+  }
+  
+  .icon-box img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s;
+  }
+  .icon-box:hover img {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(78%) saturate(643%)
+      hue-rotate(180deg) brightness(92%) contrast(89%);
+  }
+  .icon-box .instagram {
+    width: 40px;
+    height: 40px;
+  }
+  .icon-box .youtube {
+    width: 20px;
+    height: 20px;
+  }
+  .about-me-footer {
+    margin-top: 300px;
+    background-color: #131a36;
+    padding: 35px 0;
+    position: relative;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-item {
+    text-align: center;
+  }
+  
+  .footer-circle {
+    width: 80px;
+    height: 80px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-circle img {
+    width: 40%;
+    height: 40%;
+  }
+  
+  .footer-circle:hover {
+    background: #e93656 0% 0% no-repeat padding-box;
+  }
+  
+  .footer-title {
+    color: #ffffff;
+    opacity: 1;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 30px;
+    margin-left: 150px;
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-content {
+    font-size: 14px;
+    color: #dfdfdf;
+    letter-spacing: 0.42px;
+    opacity: 1;
+    line-height: 24px;
+    position: absolute;
+    top: 65px;
+    margin-left: 150px;
+  }
