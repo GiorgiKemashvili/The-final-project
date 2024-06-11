@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .slider-background {
+    overflow: hidden;
+    background-color: #dddddd;
+    height: 100vh;
+  }
+  @font-face {
+    font-family: "GlacialIndifference";
+    font-weight: normal;
+    src: url(fonts/GlacialIndifference-Regular.otf);
+  }
+  @font-face {
+    font-family: "GlacialIndifference";
+    font-weight: bold;
+    src: url(fonts/GlacialIndifference-Bold.otf);
+  }
+  @font-face {
+    font-family: "Multi-Regular";
+    src: url(fonts/Muli-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Muli-Light";
+    src: url(/fonts/Muli-Light.ttf);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+  }
+  
+  .slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+  }
+  .slider {
+    margin-top: -50px;
+    width: 600px;
+    height: 700px;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .left-section .logo {
+    display: flex;
+    align-items: center;
+  }
+  .roca-text {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+  }
+  .dot {
+    color: #0081ff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+  }
+  .left-section .resume-template {
+    margin-top: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #b3b3b3;
+    position: absolute;
+  }
+  .right-section {
+    position: relative;
+    width: auto;
+  }
+  
+  .number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 158.3px;
+    text-align: left;
+    letter-spacing: 4.75px;
+    opacity: 1;
+    position: absolute;
+    top: -35px;
+    right: 0;
+    z-index: 0;
+  }
+  
+  .about {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 43.17px;
+    text-align: left;
+    letter-spacing: 1.3px;
+    color: #373737;
+    opacity: 1;
+    position: absolute;
+    top: 90px;
+    right: 55px;
+    z-index: 1;
+  }
+  .me {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 43.17px;
+    text-align: left;
+    letter-spacing: 1.3px;
+    color: #373737;
+    opacity: 1;
+    position: absolute;
+    right: -90px;
+    z-index: 1;
+  }
+  .slider-section {
+    margin-left: 900px;
+    margin-top: 200px;
+  }
+  .slider-icons {
+    margin-top: 50px;
+  }
+  
+  .slider-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .slider-icons img {
+    width: 30px;
+    height: auto;
+  }
+  .slider-text {
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: normal;
+    font-size: 49.7px;
+    color: #212121;
+    letter-spacing: 0.75px;
+    opacity: 1;
+  }
+  .slider-text-span {
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: 500;
+    font-size: 71px;
+    letter-spacing: 1.06px;
+    color: #212121;
+    opacity: 1;
+  }
+  .new-paragraph {
+    font-family: "GlacialIndifference", sans-serif;
+    font-weight: normal;
+    font-size: 23.29px;
+    color: #212121;
+    opacity: 1;
+  }
+  .slider {
+    position: relative;
+    max-width: 700px;
+    left: 50px;
+    bottom: 400px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    object-fit: cover;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .slider_footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    left: 1300px;
+    bottom: 50px;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    font-size: 24px;
+  }
+  
+  .footer-text {
+    color: #e93656;
+    font-size: 24px;
+    font-family: "GlacialIndifference", sans-serif;
+    padding: 8px;
+  }
+  
+  .footer-line {
+    width: 340px;
+    height: 6px;
+    background: #e93656 0% 0% no-repeat padding-box;
+    margin: 10px auto 0;
+    opacity: 1;
+  }
